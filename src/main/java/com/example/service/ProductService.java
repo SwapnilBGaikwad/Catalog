@@ -27,7 +27,7 @@ public class ProductService {
         return products;
     }
 
-    public Double getCost() {
+    public Double getRoundedUpCost() {
         return computationClient.getTotalPrice(products);
     }
 }
