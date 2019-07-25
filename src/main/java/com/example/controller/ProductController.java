@@ -23,4 +23,10 @@ public class ProductController {
     public List<Product> getProducts() {
         return service.get();
     }
+
+    @RequestMapping("/cost")
+    @ResponseBody
+    public Double getProductsCost() {
+        return service.getCost();
+    }
 }

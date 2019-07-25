@@ -1,6 +1,7 @@
-package com.example.service;
+package com.example.client;
 
 import com.example.model.Product;
+import com.example.service.ProductService;
 import org.apache.kafka.clients.consumer.Consumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
